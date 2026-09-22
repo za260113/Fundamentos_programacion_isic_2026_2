@@ -1,7 +1,30 @@
-<!-- 
-Instrucciones para la evidencia gráfica:
-1. Diseña el diagrama en DFD .
-2. Asegúrate de representar las lecturas, procesos de asignación e impresiones con su respectiva simbología.
-3. Exporta el archivo como dfd o toma una captura de pantalla clara para compañar el archivo.
-4. Guarda el archivo con el nombre exacto: `diagrama-flujo.png` dentro de la carpeta de la práctica actual.
--->
+ Dfd (c)
+1
+1
+1
+0
+0
+5
+1
+135
+pedir los datos del estudiante(solicita numero de control,nombre completo,promedio de preparatoria y estatus de documentacion completa)
+7
+0
+1
+35
+el alumno subio los datos completos
+5
+1
+53
+pedir al alumno que revise y suba sus datos completos
+13
+5
+1
+19
+capturar los datos 
+13
+4
+1
+29
+mostrar los datos en pantalla
+1
