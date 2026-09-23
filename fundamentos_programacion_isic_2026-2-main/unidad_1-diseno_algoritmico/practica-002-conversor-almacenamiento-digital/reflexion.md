@@ -1,0 +1,2 @@
+# REFLEXION_ACTIVIDAD_2
+1. logre hacer la actividad en base a la informacion proporcionada por el profesor y al momento de pedir al algoritmo que hiciera la conversion pero en la clase se prporciono la informacion continuar al diagrama de flujo
