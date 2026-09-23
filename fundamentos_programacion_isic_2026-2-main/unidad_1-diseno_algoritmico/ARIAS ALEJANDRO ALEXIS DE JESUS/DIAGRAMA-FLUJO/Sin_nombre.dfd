@@ -5,11 +5,15 @@
 0
 0
 6
-1
+2
 10
 SLA_LIMITE
 3
 200
+1
+i
+1
+1
 5
 1
 50
@@ -17,6 +21,20 @@ SLA_LIMITE
 7
 1
 0
+5
+1
+23
+ingresa en tiempo en ms
 13
+6
+1
+1
+i
+1
+1
 13
+4
+1
+26
+registro de tiemposa en ms
 1
