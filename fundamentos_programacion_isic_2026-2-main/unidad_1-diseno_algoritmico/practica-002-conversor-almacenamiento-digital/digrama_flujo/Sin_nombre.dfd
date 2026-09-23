@@ -1,0 +1,29 @@
+ Dfd (c)
+1
+1
+1
+0
+0
+5
+1
+80
+solicitar al usuario un tipo de capacidad en dato para iniciar con la conversion
+6
+3
+12
+capacidad_MB
+18
+capacidadGB × 1024
+12
+capacidad_KB
+18
+capacidadGB × 1024
+12
+capacidad_TB
+18
+capacidadGB × 1024
+4
+1
+45
+mostrar al usuario el resultado en MB,KB y TB
+1
