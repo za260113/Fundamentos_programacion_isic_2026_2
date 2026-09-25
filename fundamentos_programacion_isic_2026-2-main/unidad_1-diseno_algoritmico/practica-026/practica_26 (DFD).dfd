@@ -1,0 +1,53 @@
+ Dfd (c)
+1
+1
+1
+0
+0
+5
+1
+11
+tamanoTotal
+6
+1
+9
+remanente
+11
+tamanoTotal
+9
+1
+13
+remanente > 0
+5
+1
+11
+tamanoChunk
+7
+0
+1
+23
+tamanoChunk > remanente
+6
+1
+9
+remanente
+1
+0
+13
+6
+1
+9
+remanente
+23
+remanente - tamanoChunk
+13
+4
+1
+61
+'Porcentaje recibido: ' , (1 - remanente / tamanoTotal) * 100
+11
+4
+1
+33
+'Archivo recibido completamente.'
+1

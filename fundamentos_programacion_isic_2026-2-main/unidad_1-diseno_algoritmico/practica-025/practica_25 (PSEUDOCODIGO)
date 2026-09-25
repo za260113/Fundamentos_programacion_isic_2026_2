@@ -1,0 +1,31 @@
+INICIO
+    // 1. Solicitar el PID a buscar
+    IMPRIMIR 'INTRODUSCA EL PID BUSCADO'
+    LEER pidBuscado
+
+    // 2. Inicializar variables
+    i <- 1
+    encontrado <- FALSO
+
+    // 3. Iniciar ciclo de búsqueda para un máximo de 10 elementos
+    MIENTRAS (i <= 10 Y encontrado = FALSO) HACER
+        
+        LEER pidLeido
+
+        // 4. Comparar el valor leído con el buscado
+        SI (pidLeido = pidBuscado) ENTONCES
+            encontrado <- VERDADERO
+        FIN SI
+
+        // 5. Incrementar el contador de posición
+        i <- i + 1
+        
+    FIN MIENTRAS
+
+    // 6. Imprimir el resultado final
+    SI (encontrado = VERDADERO) ENTONCES
+        IMPRIMIR 'PID encontrado en la posicion: ', (i - 1)
+    SINO
+        IMPRIMIR 'PID no encontrado.'
+    FIN SI
+FIN

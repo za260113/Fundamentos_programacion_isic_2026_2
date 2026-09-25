@@ -1,0 +1,40 @@
+ Dfd (c)
+1
+1
+1
+0
+0
+5
+1
+7
+maxBits
+7
+0
+1
+30
+maxBits >= 1 and maxBits <= 16
+8
+1
+1
+i
+1
+1
+0
+1
+7
+maxBits
+1
+1
+1
+4
+1
+39
+'Bits: ' , i , ' Direcciones: ' , 2 ^ i
+10
+13
+4
+1
+44
+'El numero de bits debe estar entre 1 y 16.'
+13
+1

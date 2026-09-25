@@ -1,0 +1,18 @@
+Algoritmo RecepcionArchivoFragmentos
+
+1. Inicio
+2. Escribir "Introduce el tamaño total del archivo"
+3. Leer tamanioTotal
+4. remanente <- tamanioTotal
+5. Mientras remanente > 0
+6.     Escribir "Introduce el tamaño del fragmento recibido"
+7.     Leer tamanioChunk
+8.     Si tamanioChunk > remanente Entonces
+9.         tamanioChunk <- remanente
+10.     FinSi
+11.     remanente <- remanente - tamanioChunk
+12.     porcentaje <- ((tamanioTotal - remanente) / tamanioTotal) * 100
+13.     Escribir "Progreso: ", porcentaje, "%"
+14. FinMientras
+15. Escribir "Descarga finalizada"
+16. Fin

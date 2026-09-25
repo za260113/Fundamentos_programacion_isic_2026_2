@@ -1,0 +1,32 @@
+Algoritmo BalanceadorCargaHTTP
+
+1. Inicio
+2. Escribir "Introduce el número de servidores"
+3. Leer N
+4. totalMB <- 0
+5. totalPeticiones <- 0
+6. Para i <- 1 Hasta N Con Paso 1
+7.     cargaServidor <- 0
+8.     continuar <- VERDADERO
+9.     Mientras cargaServidor < 50 Y continuar = VERDADERO
+10.         Escribir "Introduce la carga de la petición"
+11.         Leer peticion
+12.         Si peticion = 0 Entonces
+13.             continuar <- FALSO
+14.         SiNo
+15.             Si peticion > 0 Y cargaServidor + peticion <= 50 Entonces
+16.                 cargaServidor <- cargaServidor + peticion
+17.                 totalMB <- totalMB + peticion
+18.                 totalPeticiones <- totalPeticiones + 1
+19.             SiNo
+20.                 Escribir "Petición rechazada"
+21.             FinSi
+22.         FinSi
+23.     FinMientras
+24.     Escribir "Carga del servidor ", i, ": ", cargaServidor
+25. FinPara
+26. promedioMB <- totalMB / N
+27. Escribir "Total MB: ", totalMB
+28. Escribir "Total de peticiones: ", totalPeticiones
+29. Escribir "Promedio de MB: ", promedioMB
+30. Fin

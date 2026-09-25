@@ -1,0 +1,108 @@
+ Dfd (c)
+1
+1
+1
+0
+0
+5
+1
+1
+N
+6
+3
+8
+servidor
+1
+0
+15
+totalPeticiones
+1
+0
+7
+totalMB
+1
+0
+8
+1
+8
+servidor
+1
+1
+1
+1
+1
+N
+1
+1
+1
+6
+1
+13
+cargaServidor
+1
+0
+9
+1
+18
+cargaServidor < 50
+5
+1
+14
+tamanoPeticion
+7
+0
+1
+18
+tamanoPeticion = 0
+6
+1
+13
+cargaServidor
+2
+50
+13
+7
+0
+1
+36
+tamanoPeticion <= 50 - cargaServidor
+6
+3
+13
+cargaServidor
+30
+cargaServidor + tamanoPeticion
+15
+totalPeticiones
+19
+totalPeticiones + 1
+7
+totalMB
+24
+totalMB + tamanoPeticion
+13
+4
+1
+55
+'Peticion rechazada: excede la capacidad del servidor.'
+13
+13
+11
+4
+1
+65
+'Servidor procesado: ' , servidor , ' Carga MB: ' , cargaServidor
+10
+4
+1
+33
+'Total MB procesados: ' , totalMB
+4
+1
+51
+'Total de peticiones aceptadas: ' , totalPeticiones
+4
+1
+42
+'Promedio MB por servidor: ' , totalMB / N
+1
