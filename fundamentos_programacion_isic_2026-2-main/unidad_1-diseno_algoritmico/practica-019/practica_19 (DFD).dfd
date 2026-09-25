@@ -1,0 +1,97 @@
+ Dfd (c)
+1
+1
+1
+0
+0
+6
+3
+7
+cant200
+1
+0
+7
+cant4xx
+1
+0
+7
+cant5xx
+1
+0
+6
+1
+8
+registro
+1
+1
+4
+1
+41
+"Ingresa la cantidad total de registros:"
+5
+1
+14
+totalRegistros
+9
+1
+26
+registro <= totalRegistros
+4
+1
+53
+"Ingresa el codigo HTTP del registro ", registro, ':'
+5
+1
+10
+codigoHTTP
+7
+0
+1
+16
+codigoHTTP = 200
+7
+0
+1
+16
+codigoHTTP = 404
+7
+0
+1
+16
+codigoHTTP = 505
+13
+6
+1
+7
+cant5xx
+11
+cant5xx + 1
+13
+13
+6
+1
+7
+cant4xx
+11
+cant4xx + 1
+13
+13
+6
+1
+7
+cant200
+11
+cant200 + 1
+13
+6
+1
+8
+registro
+12
+registro + 1
+11
+4
+1
+89
+'RESUMEN:', 'Exitos 200: ', cant200, ',Errores 4xx: ', cant4xx, ',Errores 5xx: ', cant5xx
+1

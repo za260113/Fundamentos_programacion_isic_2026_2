@@ -1,0 +1,30 @@
+Algoritmo AnalizadorLogs
+
+01. Inicio
+02. Definir totalRegistros, codigoHTTP, i Como Entero;
+03. Definir cant200, cant4xx, cant5xx Como Entero;
+04. cant200 <- 0;
+05. cant4xx <- 0;
+06. cant5xx <- 0;
+07. Escribir "Ingrese la cantidad total de registros de log a procesar:";
+08. Leer totalRegistros;
+09. Para i <- 1 Hasta totalRegistros Con Paso 1 Hacer
+10. Escribir "Registro ", i, ": Ingrese el código de estado HTTP (ej. 200, 404, 500):";
+11. Leer codigoHTTP;
+12. Si codigoHTTP == 200 Entonces
+13. cant200 <- cant200 + 1;
+14. Sino
+15. Si codigoHTTP >= 400 Y codigoHTTP <= 499 Entonces
+16. cant4xx <- cant4xx + 1;
+17. Sino
+18. Si codigoHTTP >= 500 Y codigoHTTP <= 599 Entonces
+19. cant5xx <- cant5xx + 1;
+20. FinSi
+21. FinSi
+22. FinSi
+23. FinPara
+24. Escribir "--- RESUMEN ESTADÍSTICO ---";
+25. Escribir "Éxito (200): ", cant200;
+26. Escribir "Errores de Cliente (4xx): ", cant4xx;
+27. Escribir "Errores de Servidor (5xx): ", cant5xx;
+28. Fins

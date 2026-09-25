@@ -1,0 +1,68 @@
+ Dfd (c)
+1
+1
+1
+0
+0
+4
+1
+27
+'INTRODUSCA EL PID BUSCADO'
+5
+1
+10
+pidBuscado
+6
+2
+1
+i
+1
+1
+10
+encontrado
+3
+.F.
+9
+1
+30
+i <= 10 AND   encontrado = .F.
+5
+1
+8
+pidLeido
+7
+0
+1
+21
+pidLeido = pidBuscado
+13
+6
+1
+10
+encontrado
+3
+.V.
+13
+6
+1
+1
+i
+5
+i + 1
+11
+7
+0
+1
+16
+encontrado = .V.
+4
+1
+20
+'PID no encontrado.'
+13
+4
+1
+41
+'PID encontrado en la posicion: ' , i - 1
+13
+1

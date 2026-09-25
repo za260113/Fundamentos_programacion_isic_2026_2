@@ -1,0 +1,66 @@
+ Dfd (c)
+1
+1
+1
+0
+0
+6
+2
+13
+sumaLatencias
+1
+0
+14
+latenciaMaxima
+1
+0
+8
+1
+1
+i
+1
+1
+1
+1
+1
+5
+1
+1
+1
+4
+1
+21
+'Ingresa la latencia'
+5
+1
+8
+latencia
+6
+1
+13
+sumaLatencias
+24
+sumaLatencias + latencia
+7
+0
+1
+25
+latencia > latenciaMaxima
+6
+1
+14
+latenciaMaxima
+8
+latencia
+13
+13
+10
+4
+1
+41
+'Latencia promedio: ' , sumaLatencias / 5
+4
+1
+36
+'Latencia maxima: ' , latenciaMaxima
+1

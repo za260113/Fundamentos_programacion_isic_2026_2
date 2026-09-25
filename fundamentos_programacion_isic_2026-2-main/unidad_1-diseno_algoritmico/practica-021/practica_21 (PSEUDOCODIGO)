@@ -1,0 +1,14 @@
+Practica 21: Transmision de paquetes de red
+
+Inicio 
+    1 Entrada de datos
+    2 Escribir "ingrese el total de paquetes:"
+    3 Leer totaldepaquetes
+    
+    4 Ciclo para procesar/enviar cada paquete
+    Para i <- 1 Hasta totaldepaquetes Con Paso 1 Hacer
+    5 Escribir "Enviando paquete ", i
+    6 FinPara
+
+    7 Mensaje de finalización Escribir "Transmision terminada"
+Fin

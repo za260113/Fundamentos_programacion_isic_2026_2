@@ -1,0 +1,10 @@
+Algoritmo TemporizadorRegresivo
+
+1. Inicio
+2. Escribir "Introduce los segundos iniciales"
+3. Leer segundosIniciales
+4. Para t <- segundosIniciales Hasta 1 Con Paso -1
+5.     Escribir "Segundos restantes: ", t
+6. FinPara
+7. Escribir "Servidor Apagado Correctamente"
+8. Fin

@@ -1,0 +1,13 @@
+Algoritmo IngestaTelemetria
+
+01. Inicio
+02. Definir temperatura Como Real;
+03. Repetir
+04. Escribir "Ingrese la lectura de temperatura (-50.0 °C a 100.0 °C):";
+05. Leer temperatura;
+06. Si temperatura < -50.0 O temperatura > 100.0 Entonces
+07. Escribir "ERROR: Lectura fuera de rango operacional. Intente de nuevo.";
+08. FinSi
+09. Hasta Que temperatura >= -50.0 Y temperatura <= 100.0;
+10. Escribir "Lectura confirmada y aceptada por el sistema: ", temperatura, " °C";
+11. Fin

@@ -1,0 +1,15 @@
+practica 22: Generador de direcciones  ip de subnetting
+
+Inicio
+     1: Definir hostinicial, hostfinal, octeto Como Entero
+    
+     2: Escribir "ingresa el host inicial:"
+     3: Leer hostinicial
+    
+     4: Escribir "ingresa el host final:"
+     5: Leer hostfinal
+    
+     6: Para octeto <- hostinicial Hasta hostfinal Con Paso 1 Hacer
+     7: Escribir "192.168.1.", octeto
+     8: FinPara
+Fin

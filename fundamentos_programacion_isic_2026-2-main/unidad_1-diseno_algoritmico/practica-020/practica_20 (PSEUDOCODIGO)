@@ -1,0 +1,64 @@
+Algoritmo ProcesadorTransacciones
+
+01. Inicio
+02. Definir saldoCuenta, monto, totalDepositado, totalRetirado Como Real;
+03. Definir opcionMenu, tipoTransaccion, depositosExitosos, retirosExitosos, rechazadas Como Entero;
+04. saldoCuenta <- 5000.0;
+05. totalDepositado <- 0.0;
+06. totalRetirado <- 0.0;
+07. depositosExitosos <- 0;
+08. retirosExitosos <- 0;
+09. rechazadas <- 0;
+10. Repetir
+11. Escribir "--- PASARELA DE PAGOS ---";
+12. Escribir "1. Procesar Transacción";
+13. Escribir "2. Finalizar Lote y Salir";
+14. Escribir "Seleccione una opción:";
+15. Leer opcionMenu;
+16. Si opcionMenu == 1 Entonces
+17. Repetir
+18. Escribir "Tipo de transacción (1: Depósito, 2: Retiro):";
+19. Leer tipoTransaccion;
+20. Si tipoTransaccion <> 1 Y tipoTransaccion <> 2 Entonces
+21. Escribir "Tipo inválido. Ingrese 1 o 2.";
+22. FinSi
+23. Hasta Que tipoTransaccion == 1 O tipoTransaccion == 2;
+24. Repetir
+25. Escribir "Ingrese el monto:";
+26. Leer monto;
+27. Si monto <= 0.0 Entonces
+28. Escribir "El monto debe ser mayor a 0.0";
+29. FinSi
+30. Hasta Que monto > 0.0;
+31. Si tipoTransaccion == 1 Entonces
+32. saldoCuenta <- saldoCuenta + monto;
+33. totalDepositado <- totalDepositado + monto;
+34. depositosExitosos <- depositosExitosos + 1;
+35. Escribir "Depósito realizado con éxito.";
+36. Sino
+37. Si monto <= saldoCuenta Entonces
+38. saldoCuenta <- saldoCuenta - monto;
+39. totalRetirado <- totalRetirado + monto;
+40. retirosExitosos <- retirosExitosos + 1;
+41. Escribir "Retiro realizado con éxito.";
+42. Sino
+43. Escribir "ALERTA: Fondos Insuficientes.";
+44. rechazadas <- rechazadas + 1;
+45. FinSi
+46. FinSi
+47. Sino
+48. Si opcionMenu <> 2 Entonces
+49. Escribir "Opción de menú inválida.";
+50. FinSi
+51. FinSi
+52. Hasta Que opcionMenu == 2;
+53. Escribir "=================================";
+54. Escribir "   REPORTE GENERAL DE AUDITORÍA";
+55. Escribir "=================================";
+56. Escribir "Saldo Final en Cuenta: $", saldoCuenta;
+57. Escribir "Total Depositado: $", totalDepositado;
+58. Escribir "Total Retirado: $", totalRetirado;
+59. Escribir "Depósitos Exitosos: ", depositosExitosos;
+60. Escribir "Retiros Exitosos: ", retirosExitosos;
+61. Escribir "Transacciones Rechazadas: ", rechazadas;
+62. Fin
