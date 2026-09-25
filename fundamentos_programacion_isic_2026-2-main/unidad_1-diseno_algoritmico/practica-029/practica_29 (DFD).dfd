@@ -1,0 +1,59 @@
+ Dfd (c)
+1
+1
+1
+0
+0
+4
+1
+29
+'Ingrese la peticion Inicial'
+5
+1
+19
+peticionesIniciales
+7
+0
+1
+56
+peticionesIniciales <= 0 or peticionesIniciales >= 10000
+6
+2
+11
+cargaActual
+19
+peticionesIniciales
+5
+horas
+1
+0
+9
+1
+19
+cargaActual < 10000
+6
+2
+11
+cargaActual
+18
+cargaActual*6/5+00
+5
+horas
+9
+horas + 1
+4
+1
+44
+'Hora ' , horas , ': carga = ' , cargaActual
+11
+4
+1
+28
+'Horas necesarias: ' , horas
+13
+4
+1
+71
+'Las peticiones iniciales deben ser mayores que 0 y menores que 10000.'
+13
+1
