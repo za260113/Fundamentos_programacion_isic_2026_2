@@ -1,0 +1,15 @@
+Algoritmo CrecimientoCargaServidor
+
+1. Inicio
+2. Escribir "Introduce las peticiones iniciales"
+3. Leer peticionesIniciales
+4. cargaActual <- peticionesIniciales
+5. horas <- 0
+6. Mientras cargaActual < 10000
+7.     cargaActual <- cargaActual * 1.20
+8.     horas <- horas + 1
+9.     Escribir "Hora: ", horas
+10.     Escribir "Carga actual: ", cargaActual
+11. FinMientras
+12. Escribir "Total de horas: ", horas
+13. Fin
