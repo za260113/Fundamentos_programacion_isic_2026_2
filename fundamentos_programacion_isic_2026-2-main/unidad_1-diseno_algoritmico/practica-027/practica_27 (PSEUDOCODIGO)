@@ -1,0 +1,11 @@
+Algoritmo TablaPotencias
+
+1. Inicio
+2. Escribir "Introduce el número máximo de bits"
+3. Leer maxBits
+4. Para i <- 0 Hasta maxBits Con Paso 1
+5.     direcciones <- 2 ^ i
+6.     Escribir "Bits: ", i
+7.     Escribir "Direcciones: ", direcciones
+8. FinPara
+9. Fin
