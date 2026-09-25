@@ -1,0 +1,15 @@
+Algoritmo MonitorSobrecargaServidor
+
+01. Inicio
+02. Definir usoCPU Como Real;
+03. Definir alertaActivada Como Logico;
+04. AlertaActivada <- Falso;
+05. Escribir "Ingrese el porcentaje de uso de CPU:";
+06. Leer usoCPU;
+07. Si usoCPU > 85.0 Entonces
+08. Escribir "ALERTA: Uso crítico de CPU";
+09. AlertaActivada <- Verdadero;
+10. FinSi
+11. Escribir "Porcentaje medido: ", usoCPU, "%";
+12. Escribir "Estado de la alerta: ", alertaActivada;
+13. Fin
