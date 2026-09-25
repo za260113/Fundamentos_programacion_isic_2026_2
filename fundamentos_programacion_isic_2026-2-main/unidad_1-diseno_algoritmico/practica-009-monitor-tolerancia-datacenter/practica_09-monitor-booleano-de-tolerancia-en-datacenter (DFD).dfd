@@ -1,0 +1,46 @@
+ Dfd (c)
+1
+1
+1
+0
+0
+4
+1
+32
+'Ingrese Temperatura y Humedad:'
+5
+1
+20
+temperatura, humedad
+7
+0
+1
+91
+(temperatura >= 18.0) AND (temperatura <= 24.0) AND (humedad >= 40.0) AND (humedad <= 60.0)
+6
+2
+18
+operacionNormativa
+7
+'FALSO'
+12
+alertaRiesgo
+11
+'VERDADERO'
+13
+6
+2
+18
+operacionNormativa
+12
+'VERDADERO' 
+12
+alertaRiesgo
+7
+'FALSO'
+13
+4
+1
+77
+'Normativo: ', operacionNormativa, ' | Riesgo Desbordamiento: ', alertaRiesgo
+1
