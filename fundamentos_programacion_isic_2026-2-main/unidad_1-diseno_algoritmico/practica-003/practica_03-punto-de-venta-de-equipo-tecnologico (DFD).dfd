@@ -1,0 +1,33 @@
+ Dfd (c)
+1
+1
+1
+0
+0
+4
+1
+41
+'Ingrese precio 1, precio 2 y precio 3: '
+5
+1
+37
+precioProd1, precioProd2, precioProd3
+6
+3
+8
+Subtotal
+35
+PrecioProd1+PrecioProd2+PrecioProd3
+8
+MontoIva
+15
+Subtotal * 0.16
+11
+TotalFinal 
+28
+Subtotal + MontoIva + 150.00
+4
+1
+69
+'Subtotal: $', subtotal, ' IVA: $', montoIVA, ' Total: $', totalFinal
+1

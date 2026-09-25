@@ -1,0 +1,16 @@
+Algoritmo Practica04_DimensionamientoCanalizacion
+1. inicio
+2. Definir radio, longitud Como Real
+3. Definir PI_VALOR, areaBase, areaLateral, volumen Como Real
+    3.1 PI_VALOR <- 3.14159265 
+4. Escribir "Ingrese el radio del ducto cilíndrico:"
+5. Leer radio
+6. Escribir "Ingrese la longitud del ducto cilíndrico:"
+7. Leer longitud
+    7.1 areaBase <- PI_VALOR * (radio * radio)
+    7.2 areaLateral <- 2 * PI_VALOR * radio * longitud
+    7.3 volumen <- PI_VALOR * (radio * radio) * longitud
+8. Escribir "Área de la base:      ", areaBase
+9. Escribir "Área lateral exterior:", areaLateral
+10. Escribir "Volumen de protección:", volumen
+11. Final

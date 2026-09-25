@@ -1,0 +1,25 @@
+Algoritmo AltaEstudiante
+1. inicio 
+2. Declaración de variables
+    2.1 Definir numeroControl Como Entero
+    2.2 Definir nombreCompleto Como Cadena
+    2.3 Definir promedioPrepa Como Real
+    2.4 Definir estatusDocumentos Como Logico
+    
+3. Captura de datos
+    3.1 Escribir "Ingrese el número de control:"
+    3.2 Leer numeroControl
+    3.3 Escribir "Ingrese el nombre completo:"
+    3.4 Leer nombreCompleto
+    3.5 Escribir "Ingrese el promedio de preparatoria:"
+    3.6 Leer promedioPrepa
+    3.7 Escribir "Ingrese estatus de documentación (VERDADERO/FALSO):"
+    3.8 Leer estatusDocumentos
+    
+4. Despliegue de ficha digital
+    4.1 Escribir "FICHA DIGITAL DEL ESTUDIANTE"    
+    4.2 Escribir "Número de Control: ", numeroControl
+    4.3 Escribir "Nombre Completo:   ", nombreCompleto
+    4.4 Escribir "Promedio Prepa:    ", promedioPrepa
+    4.5 Escribir "Docs Completa:     ", estatusDocumentos
+5. FinAlgoritmo

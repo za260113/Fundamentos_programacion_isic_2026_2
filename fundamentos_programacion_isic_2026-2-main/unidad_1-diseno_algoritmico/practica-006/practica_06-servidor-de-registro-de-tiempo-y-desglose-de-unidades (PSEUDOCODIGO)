@@ -1,0 +1,15 @@
+Algoritmo Practica06_DesgloseTiempo
+1. inicio 
+2. Definir segundosTotales Como Entero
+3. Definir horas, segundosRestantes, minutos, segundosFinales Como Entero
+4. Escribir "Ingrese los segundos totales de actividad:"
+5. Leer segundosTotales
+    5.1 horas <- TRUNC(segundosTotales / 3600)
+    5.2 segundosRestantes <- segundosTotales % 3600
+    5.3 minutos <- TRUNC(segundosRestantes / 60)
+    5.4 segundosFinales <- segundosRestantes % 60 
+6. Escribir "Tiempo desglosado:"
+7. Escribir "Horas:    ", horas
+8. Escribir "Minutos:  ", minutos
+9. Escribir "Segundos: ", segundosFinales
+10. final 

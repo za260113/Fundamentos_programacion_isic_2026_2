@@ -1,0 +1,25 @@
+ Dfd (c)
+1
+1
+1
+0
+0
+4
+1
+58
+'Ingrese notas de Examenes, Practicas, Proyecto y Tareas:'
+5
+1
+53
+notaExamenes, notaPracticas, notaProyecto, notaTareas
+6
+1
+17
+promedioPonderado
+92
+(notaExamenes * 0.40) + (notaPracticas * 0.30) + (notaProyecto * 0.20) + (notaTareas * 0.10)
+4
+1
+47
+'Promedio Ponderado Final: ', promedioPonderado
+1

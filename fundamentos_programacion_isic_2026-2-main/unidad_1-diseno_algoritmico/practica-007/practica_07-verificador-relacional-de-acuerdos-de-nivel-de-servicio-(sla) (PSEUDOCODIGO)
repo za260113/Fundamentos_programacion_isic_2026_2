@@ -1,0 +1,10 @@
+Algoritmo Practica07_VerificadorSLA
+1. inicio 
+2. Definir tiempoRespuesta, SLA_LIMITE Como Real
+3. Definir cumpleSLA Como Logico
+    3.1 SLA_LIMITE <- 200.0
+4. Escribir "Ingrese el tiempo de respuesta registrado (ms):"
+5. Leer tiempoRespuesta
+    5.1 cumpleSLA <- (tiempoRespuesta <= SLA_LIMITE)
+6. Escribir "¿Cumple con el acuerdo SLA (<= 200 ms)?: ", cumpleSLA
+7. final 

@@ -1,0 +1,39 @@
+ Dfd (c)
+1
+1
+1
+0
+0
+4
+1
+39
+'Ingrese total de segundos acumulados:'
+5
+1
+16
+segundosTotales 
+6
+3
+5
+horas
+29
+TRUNC(segundosTotales / 3600)
+17
+segundosRestantes
+24
+segundosTotales mod 3600
+7
+minutos
+29
+TRUNC(segundosRestantes / 60)
+6
+1
+16
+segundosFinales 
+24
+segundosRestantes mod 60
+4
+1
+70
+horas, ' Horas, ', minutos, ' Minutos, ', segundosFinales, ' Segundos'
+1

@@ -1,0 +1,15 @@
+Algoritmo Practica05_PromedioPonderado
+1. inicio
+2. Definir notaExamenes, notaPracticas, notaProyecto, notaTareas Como Real
+3. Definir promedioPonderado Como Real
+4. Escribir "Ingrese la calificación de Exámenes (0-100):"
+5. Leer notaExamenes
+6. Escribir "Ingrese la calificación de Prácticas (0-100):"
+7. Leer notaPracticas
+8. Escribir "Ingrese la calificación del Proyecto (0-100):"
+9. Leer notaProyecto
+10. Escribir "Ingrese la calificación de Tareas (0-100):"
+11. Leer notaTareas
+    11.1 promedioPonderado <- (notaExamenes * 0.40) + (notaPracticas * 0.30) + (notaProyecto * 0.20) + (notaTareas * 0.10)
+12. Escribir "El promedio ponderado final es: ", promedioPonderado
+13. Final

@@ -1,0 +1,12 @@
+Algoritmo Practica08_DictamenBeca
+1. inicio 
+2. Definir promedioGeneral Como Real
+3. Definir creditosAprobados Como Entero
+4. Definir esElegible Como Logico
+    4.1 Escribir "Ingrese el promedio general del estudiante:"
+    4.2 Leer promedioGeneral
+    4.3 Escribir "Ingrese los créditos aprobados:"
+    4.4 Leer creditosAprobados
+5. esElegible <- (promedioGeneral >= 85.0) Y (creditosAprobados >= 45)
+6. Escribir "¿El candidato es elegible para la beca?: ", esElegible
+7. Final 

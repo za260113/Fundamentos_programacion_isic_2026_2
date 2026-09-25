@@ -1,0 +1,15 @@
+Algoritmo Practica09_MonitorDatacenter
+1. inicio 
+2. Definir temperatura, humedad Como Real
+3. Definir tempOk, humedadOk, operacionNormativa, alertaRiesgo Como Logico
+    3.1 Escribir "Ingrese la temperatura actual (°C):"
+    3.2 Leer temperatura
+    3.3 Escribir "Ingrese la humedad relativa actual (%):"
+    3.4 Leer humedad
+4. tempOk <- (temperatura >= 18.0) Y (temperatura <= 24.0)
+    4.1 humedadOk <- (humedad >= 40.0) Y (humedad <= 60.0)
+    4.2 operacionNormativa <- tempOk Y humedadOk
+    4.3 alertaRiesgo <- (temperatura > 24.0) O (humedad > 60.0)
+5. Escribir "Estado de Operación Normativa: ", operacionNormativa
+6. Escribir "Estado de Alerta por Riesgo:   ", alertaRiesgo
+7. Final 

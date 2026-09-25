@@ -1,0 +1,59 @@
+ Dfd (c)
+1
+1
+1
+0
+0
+4
+1
+31
+"Ingrese el número de control:"
+5
+1
+13
+NumeroControl
+4
+1
+30
+"Ingrese el nombre completo:" 
+5
+1
+14
+NombreCompleto
+4
+1
+38
+"Ingrese el promedio de preparatoria:"
+5
+1
+13
+PromedioPrepa
+4
+1
+53
+"Ingrese estatus de documentación (VERDADERO/FALSO):"
+5
+1
+17
+EstatusDocumentos
+4
+1
+32
+' FICHA DIGITAL DEL ESTUDIANTE '
+4
+1
+36
+'Número de Control: ', numeroControl
+4
+1
+35
+'Nombre Completo: ', nombreCompleto
+4
+1
+33
+'Promedio Prepa: ', promedioPrepa
+4
+1
+36
+'Docs Completa: ', estatusDocumentos
+1

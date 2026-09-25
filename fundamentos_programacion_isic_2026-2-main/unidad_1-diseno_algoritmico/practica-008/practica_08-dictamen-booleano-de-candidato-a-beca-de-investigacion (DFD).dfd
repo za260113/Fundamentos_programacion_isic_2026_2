@@ -1,0 +1,48 @@
+ Dfd (c)
+1
+1
+1
+0
+0
+4
+1
+48
+'Ingrese Promedio General y Creditos Aprobados:'
+5
+1
+34
+promedioGeneral, creditosAprobados
+6
+2
+11
+difPromedio
+22
+PromedioGeneral - 85.0
+11
+difCreditos
+22
+CreditosAprobados - 45
+7
+0
+1
+51
+promedioGeneral >= 85.0 AND creditosAprobados >= 45
+6
+1
+10
+esElegible
+7
+'Falso'
+13
+6
+1
+10
+esElegible
+11
+'Verdadero'
+13
+4
+1
+34
+'Elegible para Beca: ', esElegible
+1

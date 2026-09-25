@@ -1,0 +1,18 @@
+Algoritmo Practica03_PuntoDeVenta
+1. inicio 
+2. Definir precioProd1, precioProd2, precioProd3 Como Real
+3. Definir subtotal, montoIVA, totalFinal Como Real
+4. Escribir "Ingrese el precio del Producto 1:"
+5. Leer precioProd1
+6. Escribir "Ingrese el precio del Producto 2:"
+7. Leer precioProd2
+8. Escribir "Ingrese el precio del Producto 3:"
+9. Leer precioProd3
+    9.1 subtotal <- precioProd1 + precioProd2 + precioProd3
+    9.2 montoIVA <- subtotal * 0.16
+    9.3 totalFinal <- subtotal + montoIVA + 150.00
+10. Escribir "Subtotal:        $", subtotal
+11. Escribir "IVA (16%):       $", montoIVA
+12. Escribir "Costo de Envío:  $150.00"
+13. Escribir "Total a Pagar:   $", totalFinal
+14. Final

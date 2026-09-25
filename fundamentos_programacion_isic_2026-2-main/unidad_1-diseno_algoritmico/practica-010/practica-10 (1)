@@ -1,0 +1,47 @@
+Algoritmo Practica10_IntegradorProyecto
+ 1. inicio
+ 2. Definir nombreProyecto Como Cadena
+ 3. Definir horasDesarrollo, plazoClienteDias Como Entero
+ 4. Definir costoHora, presupuestoCliente Como Real
+ 5. Definir JORNADA_DIARIA, DIAS_SEMANA Como Entero
+ 6. Definir subtotalManoObra, imprevistos, descuento, costoTotalNeto, impuestoIVA, granTotal Como Real
+ 7. Definir diasTotalesRequeridos, horasSobrantesDia, semanasLaborales Como Entero
+ 8. Definir presupuestoViable, plazoViable, proyectoAprobado Como Logico
+ 9. JORNADA_DIARIA <- 8
+10. DIAS_SEMANA <- 5
+11. Escribir "Nombre del proyecto:"
+12. Leer nombreProyecto
+13. Escribir "Horas totales estimadas:"
+14. Leer horasDesarrollo
+15. Escribir "Costo por hora ($):"
+16. Leer costoHora
+17. Escribir "Presupuesto máximo del cliente ($):"
+18. Leer presupuestoCliente
+19. Escribir "Plazo máximo tolerado por el cliente (días):"
+20. Leer plazoClienteDias
+21. subtotalManoObra <- horasDesarrollo * costoHora
+22. imprevistos <- subtotalManoObra * 0.12
+23. descuento <- subtotalManoObra * 0.05
+24. costoTotalNeto <- subtotalManoObra + imprevistos - descuento
+25. impuestoIVA <- costoTotalNeto * 0.16
+26. granTotal <- costoTotalNeto + impuestoIVA
+27. diasTotalesRequeridos <- TRUNC(horasDesarrollo / JORNADA_DIARIA)
+28. horasSobrantesDia <- horasDesarrollo % JORNADA_DIARIA
+29. semanasLaborales <- TRUNC(diasTotalesRequeridos / DIAS_SEMANA)
+30. presupuestoViable <- (granTotal <= presupuestoCliente)
+31. plazoViable <- (diasTotalesRequeridos <= plazoClienteDias)
+32. proyectoAprobado <- presupuestoViable Y plazoViable
+33. Escribir "INFORME FINANCIERO Y DE TIEMPO: ", nombreProyecto
+34. Escribir "Subtotal Mano de Obra: $", subtotalManoObra
+35. Escribir "Imprevistos (12%):     $", imprevistos
+36. Escribir "Descuento Convenio (5%):$", descuento
+37. Escribir "Costo Total Neto:      $", costoTotalNeto
+38. Escribir "IVA Licencias (16%):   $", impuestoIVA
+39. Escribir "GRAN TOTAL A COBRAR:   $", granTotal
+40. Escribir "Días Totales Requeridos:", diasTotalesRequeridos, " días"
+41. Escribir "Horas Sobrantes del Día:", horasSobrantesDia, " hrs"
+42. Escribir "Semanas Laborales:     ", semanasLaborales, " semanas"
+43. Escribir "¿Presupuesto Viable?:  ", presupuestoViable
+44. Escribir "¿Plazo Viable?:        ", plazoViable
+45. Escribir "¿PROYECTO APROBADO?:   ", proyectoAprobado
+46. Final
