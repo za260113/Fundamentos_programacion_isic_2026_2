@@ -1,0 +1,52 @@
+ Dfd (c)
+1
+1
+1
+0
+0
+6
+1
+14
+alertaActivada
+7
+'falso'
+4
+1
+39
+'Ingrese el porcentaje de uso de CPU: '
+5
+1
+6
+usoCPU
+7
+0
+1
+13
+UsoCPU > 85.0
+6
+1
+14
+alertaActivada
+7
+'Falso'
+13
+4
+1
+28
+'ALERTA: Uso critico de CPU'
+6
+1
+14
+alertaActivada
+11
+'Verdadero'
+13
+4
+1
+35
+'Porcentaje medido: ' , usoCPU, '%'
+4
+1
+37
+'Estado de alerta: ' , alertaActivada
+1
