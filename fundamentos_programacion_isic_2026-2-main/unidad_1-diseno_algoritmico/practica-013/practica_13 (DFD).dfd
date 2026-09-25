@@ -1,0 +1,52 @@
+ Dfd (c)
+1
+1
+1
+0
+0
+4
+1
+31
+'Ingrese el numero de puerto: '
+5
+1
+12
+numeroPuerto
+7
+0
+1
+41
+numeroPuerto < 1 AND numeroPuerto > 65535
+7
+0
+1
+20
+numeroPuerto <= 1024
+7
+0
+1
+21
+numeroPuerto <= 49151
+4
+1
+16
+'Prioridad Baja'
+13
+4
+1
+17
+'Prioridad Media'
+13
+13
+4
+1
+16
+'Prioridad Alta'
+13
+13
+4
+1
+40
+'Prioridad alta (servicios del sistema)'
+13
+1

@@ -1,0 +1,69 @@
+ Dfd (c)
+1
+1
+1
+0
+0
+6
+1
+8
+eleccion
+1
+3
+9
+1
+13
+eleccion != 0
+4
+1
+45
+'1. Ping a Servidor
+2. Traceroute
+0. Salir'
+4
+1
+23
+'Selecciona una opcion'
+5
+1
+8
+eleccion
+7
+0
+1
+12
+eleccion = 1
+7
+0
+1
+12
+eleccion = 2
+7
+0
+1
+12
+eleccion = 0
+4
+1
+17
+"Opcion invalida"
+13
+4
+1
+23
+"Saliendo del programa"
+13
+13
+4
+1
+23
+"Ejecutando Traceroute"
+13
+13
+4
+1
+28
+"Ejecutando Ping a Servidor"
+13
+11
+1

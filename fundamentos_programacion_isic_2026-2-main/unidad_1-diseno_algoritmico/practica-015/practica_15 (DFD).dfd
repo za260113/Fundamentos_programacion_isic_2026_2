@@ -1,0 +1,70 @@
+ Dfd (c)
+1
+1
+1
+0
+0
+6
+2
+7
+intento
+1
+1
+14
+estadoconexion
+1
+0
+9
+1
+12
+intento <= 3
+5
+1
+17
+passwordingresada
+7
+0
+1
+31
+passwordingresada = 'dbpass123'
+6
+1
+7
+intento
+11
+intento + 1
+13
+6
+2
+8
+conexion
+1
+1
+7
+intento
+1
+5
+13
+11
+7
+0
+1
+31
+passwordingresada = 'dbpass123'
+4
+1
+18
+'conexion agotada'
+6
+1
+7
+intento
+11
+intento + 1
+13
+4
+1
+18
+'conexion exitosa'
+13
+1

@@ -1,0 +1,26 @@
+Algoritmo MenuAdministracion
+
+01. Inicio
+02. Definir opcion Como Entero;
+03. Repetir
+04. Escribir "--- DIAGNÓSTICO DE RED ---";
+05. Escribir "1. Ping a Servidor";
+06. Escribir "2. Traceroute";
+07. Escribir "0. Salir";
+08. Escribir "Seleccione una opción:";
+09. Leer opcion;
+10. Si opcion == 1 Entonces
+11. Escribir "Ejecutando Ping al servidor...";
+12. Sino
+13. Si opcion == 2 Entonces
+14. Escribir "Ejecutando Traceroute...";
+15. Sino
+16. Si opcion == 0 Entonces
+17. Escribir "Saliendo de la herramienta de diagnóstico...";
+18. Sino
+19. Escribir "Opción no válida.";
+20. FinSi
+21. FinSi
+22. FinSi
+23. Hasta Que opcion == 0;
+24. Fin

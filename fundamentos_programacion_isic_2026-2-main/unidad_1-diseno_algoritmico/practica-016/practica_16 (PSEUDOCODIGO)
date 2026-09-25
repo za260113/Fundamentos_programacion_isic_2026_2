@@ -1,0 +1,18 @@
+Algoritmo AcumuladorTransferencia
+
+01. Inicio
+02. Definir totalDescargado, tamanoArchivo Como Real;
+03. Definir numArchivos Como Entero;
+04. totalDescargado <- 0.0;
+05. numArchivos <- 0;
+06. Mientras totalDescargado < 100.0 Hacer
+07. Escribir "Ingrese el tamaño del archivo a descargar (MB):";
+08. Leer tamanoArchivo;
+09. totalDescargado <- totalDescargado + tamanoArchivo;
+10. numArchivos <- numArchivos + 1;
+11. Escribir "Avance actual: ", totalDescargado, " MB de 100.0 MB";
+12. FinMientras
+13. Escribir "Cuota alcanzada o superada.";
+14. Escribir "Total descargado: ", totalDescargado, " MB";
+15. Escribir "Cantidad de archivos procesados: ", numArchivos;
+16. Fin

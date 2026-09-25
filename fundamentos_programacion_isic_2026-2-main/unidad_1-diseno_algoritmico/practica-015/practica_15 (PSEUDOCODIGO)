@@ -1,0 +1,23 @@
+Algoritmo ReintentoConexionBD
+
+01. Inicio
+02. Definir intento Como Entero;
+03. Definir estadoConexion Como Logico;
+04. Definir passwordIngresada Como Cadena;
+05. intento <- 1;
+06. estadoConexion <- Falso;
+07. Mientras intento <= 3 Y estadoConexion == Falso Hacer
+08. Escribir "Intento ", intento, " de 3. Ingrese la contraseña del servidor:";
+09. Leer passwordIngresada;
+10. Si passwordIngresada == "dbpass123" Entonces
+11. estadoConexion <- Verdadero;
+12. Sino
+13. intento <- intento + 1;
+14. FinSi
+15. FinMientras
+16. Si estadoConexion == Verdadero Entonces
+17. Escribir "Conexión establecida exitosamente.";
+18. Sino
+19. Escribir "Conexión fallida. Número máximo de intentos alcanzado.";
+20. FinSi
+21. Fin

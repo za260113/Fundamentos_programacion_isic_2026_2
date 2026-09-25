@@ -1,0 +1,24 @@
+Algoritmo DispatcherComandos
+
+01. Inicio
+02. Definir opcionMenu Como Entero;
+03. Escribir "--- MENÚ DE SERVIDOR ---";
+04. Escribir "1. Reiniciar Servicio";
+05. Escribir "2. Mostrar Estado";
+06. Escribir "3. Limpiar Caché";
+07. Escribir "4. Cerrar Sesión";
+08. Escribir "Seleccione una opción:";
+09. Leer opcionMenu;
+10. Segun opcionMenu Hacer
+11. 1:
+12. Escribir "Ejecutando: Reiniciando servicio...";
+13. 2:
+14. Escribir "Ejecutando: Desplegando estado del servidor...";
+15. 3:
+16. Escribir "Ejecutando: Limpiando caché del sistema...";
+17. 4:
+18. Escribir "Ejecutando: Cerrando sesión...";
+19. De Otro Modo:
+20. Escribir "Opción inválida.";
+21. FinSegun
+22. Fin

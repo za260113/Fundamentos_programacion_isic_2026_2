@@ -1,0 +1,83 @@
+ Dfd (c)
+1
+1
+1
+0
+0
+4
+1
+19
+'Menu de servidor' 
+4
+1
+24
+'1. Reiniciar servicio' 
+4
+1
+20
+'2. Mostrar estado' 
+4
+1
+19
+'3. Limpiar cache' 
+4
+1
+18
+'4. Cerrar sesion'
+4
+1
+24
+'Seleccione una opcion:'
+5
+1
+11
+opcionMenu 
+7
+0
+1
+14
+opcionMenu = 1
+7
+0
+1
+14
+opcionMenu = 2
+7
+0
+1
+14
+opcionMenu = 3
+7
+0
+1
+14
+opcionMenu = 4
+4
+1
+18
+'Opcion invalida' 
+13
+4
+1
+44
+'Ejecutando: cerrando sesion del sistema...'
+13
+13
+4
+1
+45
+'Ejecutando: Limpiando cache del sistema...' 
+13
+13
+4
+1
+48
+'Ejecutando: Desplegando estado del sistema...' 
+13
+13
+4
+1
+37
+'Ejecutando: Reiniciando servicio...'
+13
+1

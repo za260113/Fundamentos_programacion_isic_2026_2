@@ -1,0 +1,20 @@
+Algoritmo ClasificadorQoS
+
+01. Inicio
+02. Definir numeroPuerto Como Entero;
+03. Escribir "Ingrese el número de puerto:";
+04. Leer numeroPuerto;
+05. Si numeroPuerto >= 1 Y numeroPuerto <= 1024 Entonces
+06. Escribir "Prioridad Alta (Servicios del Sistema)";
+07. Sino
+08. Si numeroPuerto >= 1025 Y numeroPuerto <= 49151 Entonces
+09. Escribir "Prioridad Media (Aplicaciones Registradas)";
+10. Sino
+11. Si numeroPuerto >= 49152 Y numeroPuerto <= 65535 Entonces
+12. Escribir "Prioridad Baja (Puertos Dinámicos/Privados)";
+13. Sino
+14. Escribir "Puerto Inválido";
+15. FinSi
+16. FinSi
+17. FinSi
+18. Fin

@@ -1,0 +1,13 @@
+Algoritmo ValidadorAutenticacion
+
+01. Inicio
+02. Definir PIN_CORRECTO, pinIngresado Como Entero;
+03. PIN_CORRECTO <- 4321;
+04. Escribir "Ingrese su PIN de 4 dígitos:";
+05. Leer pinIngresado;
+06. Si pinIngresado == PIN_CORRECTO Entonces
+07. Escribir "Acceso Concedido";
+08. Sino
+09. Escribir "Acceso Denegado: PIN Incorrecto";
+10. FinSi
+11. Fin
